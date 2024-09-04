@@ -5,7 +5,7 @@
  * thing to do for my picture.
  * 
  * @author  Henry Petrillo
- * @version 2023.09.11
+ * @version 2024.09.3
  */
 
  public class Picture
@@ -112,17 +112,17 @@
             dune6.moveHorizontal(-400);
             dune6.makeVisible();
 
-            walls.changeColor("red");
-            walls.changeSize(119);
-            walls.moveVertical(30);
-            walls.moveHorizontal(-210);
-            walls.makeVisible();
-
             door.changeColor("magenta");
             door.changeSize(45, 60);
             door.moveHorizontal(-210);
             door.moveVertical(84);
             door.makeVisible();
+            
+            walls.changeColor("red");
+            walls.changeSize(119);
+            walls.moveVertical(30);
+            walls.moveHorizontal(-210);
+            walls.makeVisible();
 
             roof.changeColor("red");
             roof.changeSize(119);
@@ -142,19 +142,19 @@
      */
     public void setBlackAndWhite()
     {
-        sun1.changeColor("white");
-        sun2.changeColor("white");
+        sun1.changeColor("black");
+        sun2.changeColor("black");
         sky.changeColor("black");
-        sand.changeColor("white");
-        dune1.changeColor("white");
-        dune2.changeColor("white");
-        dune3.changeColor("white");
-        dune4.changeColor("white");
-        dune5.changeColor("white");
-        dune6.changeColor("white");
-        walls.changeColor("black");
-        door.changeColor("white");
-        roof.changeColor("black");
+        sand.changeColor("black");
+        dune1.changeColor("black");
+        dune2.changeColor("black");
+        dune3.changeColor("black");
+        dune4.changeColor("black");
+        dune5.changeColor("black");
+        dune6.changeColor("black");
+        walls.changeColor("white");
+        door.changeColor("black");
+        roof.changeColor("white");
         luke.changeColor("white");
 
     }
@@ -174,9 +174,9 @@
         dune4.changeColor("yellow");
         dune5.changeColor("yellow");
         dune6.changeColor("yellow");
-        walls.changeColor("magenta");
-        door.changeColor("red");
-        roof.changeColor("magenta");
+        walls.changeColor("red");
+        door.changeColor("magenta");
+        roof.changeColor("red");
         luke.changeColor("black");
     }
 }
